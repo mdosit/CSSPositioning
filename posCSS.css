@@ -1,0 +1,108 @@
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    width: 90%;
+}
+
+header p {
+    background-color: red;
+    padding: 1.5vh;
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+header nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header button {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 20%;
+    margin: 4px 2px;
+    padding: 15px 32px;
+}
+
+#jumpMenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: goldenrod;
+
+    width: 10%;
+    max-width: 10%;
+    text-align: center;
+
+    font-size: 32px;
+}
+
+#container {
+
+    padding-top: 5%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+}
+
+h1 {
+    padding-top: 10%;
+    position: relative;
+    font-size: 5em;
+    text-align: center;
+    
+}
+
+#container article {
+    width: 300px;
+}
+
+#thanks {
+    position: fixed;
+    background: lightblue;
+    border: 2px solid black;
+    font-size: 4em;
+    bottom: 0;
+    right: 0%;
+}
+
+article[id^="a"] {
+    /*display: grid;
+    grid-template-columns: 2em 2em 2em;
+    grid-template-rows: 2em 2em 2em;
+    grid-auto-flow: row;*/
+    /*display: flex;
+    flex-flow: column wrap;
+    width: 300px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;*/
+
+}
+    /*padding-top: 5%;
+    padding-left: 15%;
+    height: 200px;
+    max-width: 300px;
+}*/
+
+
+footer {
+    padding: 8px;
+    text-align: center;
+}
