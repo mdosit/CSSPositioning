@@ -42,7 +42,8 @@ header button {
     max-width: 10%;
     text-align: center;
 
-    font-size: 32px;
+    font-size: 2vh;
+    line-height: 5vh;
 }
 
 #container {
@@ -61,11 +62,12 @@ header button {
 }
 
 h1 {
+    padding: 0;
     padding-top: 10%;
     position: relative;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
-    
+    margin: 0;
 }
 
 #container article {
@@ -76,9 +78,11 @@ h1 {
     position: fixed;
     background: lightblue;
     border: 2px solid black;
-    font-size: 4em;
+    font-size: 3vh;
+    margin: 0;
+    padding: 0.8em;
     bottom: 0;
-    right: 0%;
+    right: 0;
 }
 
 article[id^="a"] {
